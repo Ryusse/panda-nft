@@ -5,7 +5,7 @@ import { HeadFC } from 'gatsby';
 import { Button } from '../shared/elements/atoms';
 import { Header } from '../shared/elements/organisms';
 
-const Discover = () => {
+const Contact = () => {
   return (
     <>
       <Header />
@@ -16,6 +16,6 @@ const Discover = () => {
   );
 };
 
-export default Discover;
+export default Contact;
 
 export const Head: HeadFC = () => <title>Panda NFT</title>;

@@ -6,10 +6,66 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
+      fontSize: {
+        'heading-01': [
+          '72px',
+          {
+            lineHeight: '96px',
+          },
+        ],
+        'heading-02': [
+          '64px',
+          {
+            lineHeight: '80px',
+          },
+        ],
+        'heading-03': [
+          '48px',
+          {
+            lineHeight: '64px',
+          },
+        ],
+        'heading-04': [
+          '32px',
+          {
+            lineHeight: '54px',
+          },
+        ],
+        'sub-heading-01': [
+          '28px',
+          {
+            lineHeight: '44px',
+          },
+        ],
+        'sub-heading-02': [
+          '24px',
+          {
+            lineHeight: '34px',
+          },
+        ],
+        'paragraph-01': [
+          '16px',
+          {
+            lineHeight: '32px',
+          },
+        ],
+        'paragraph-02': [
+          '14px',
+          {
+            lineHeight: '24px',
+          },
+        ],
+        'paragraph-03': [
+          '12px',
+          {
+            lineHeight: '24px',
+          },
+        ],
+      },
       colors: {
         primary: {
           neutral: {
-            white: '#fff',
+            white: '#ffffff',
           },
           grey: {
             900: '#272D37',
@@ -25,7 +81,8 @@ module.exports = {
           blue: {
             500: '#3EAEFF',
             300: '#1E50FF',
-            100: '#0F182E',
+            200: '#0F182E',
+            100: '#02050E',
           },
           green: {
             700: '#38C976',
@@ -35,6 +92,11 @@ module.exports = {
           },
           red: {
             500: '#FE5050',
+          },
+        },
+        others: {
+          blueTransparency: {
+            50: 'rgba(30, 80, 255, 0.15)',
           },
         },
       },

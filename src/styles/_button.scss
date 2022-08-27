@@ -1,0 +1,16 @@
+.button-primary {
+  @apply border-primary-blue-300 bg-primary-blue-300 text-primary-neutral-white duration-200 #{!important};
+}
+
+.button-primary-outline {
+  @apply border-primary-blue-300 bg-transparent text-primary-neutral-white duration-200;
+
+  &:hover{
+    @apply bg-others-blueTransparency-50;
+  }
+}
+
+.button-secondary-underline{
+  @apply bg-transparent text-primary-neutral-white underline duration-200 p-0 border-none #{!important};
+
+}

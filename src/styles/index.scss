@@ -1,8 +1,17 @@
 
+
+@use "button";
+@use "grid";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html,body{
-  @apply font-poppins;
+html,
+body {
+  @apply bg-primary-blue-100 font-poppins text-primary-grey-500;
 }

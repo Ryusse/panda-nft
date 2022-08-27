@@ -10,17 +10,12 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     'gatsby-plugin-netlify-cms',
     'gatsby-plugin-sass',
     'gatsby-plugin-image',
     'gatsby-plugin-sitemap',
-    {
-      resolve: 'gatsby-plugin-google-fonts',
-      options: {
-        fonts: ['poppins', 'muli:400,500,600,700,800'],
-        display: 'swap',
-      },
-    },
 
     {
       resolve: 'gatsby-plugin-manifest',
