@@ -148,6 +148,19 @@ const IndexPage = () => {
                 </div>
               </div>
             </section>
+            <section>
+              <div className="flex items-center justify-between">
+                <h2 className="text-center text-heading-04 font-bold text-primary-neutral-white lg:text-heading-03">
+                  Live Auctions
+                </h2>
+                <Button
+                  className="mt-auto w-full"
+                  classButton="primary-outline"
+                >
+                  Get Started
+                </Button>
+              </div>
+            </section>
           </LayoutIntern>
         </GridWrapper>
       </main>
