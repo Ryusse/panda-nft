@@ -10,7 +10,7 @@ export const CardArtist = () => {
       <StaticImage
         className="mx-auto rounded-full"
         placeholder="blurred"
-        src="../images/jpg/heroimage2.jpg"
+        src="../../../../images/jpg/heroimage2.jpg"
         alt="image"
         layout="fixed"
         width={120}
