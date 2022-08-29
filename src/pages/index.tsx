@@ -6,7 +6,9 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 import { Button } from '../shared/elements/atoms';
 import Icon from '../shared/elements/atoms/icon';
+import { Card, CardArtist } from '../shared/elements/molecules';
 import {
+  CardList,
   GridWrapper,
   Header,
   LayoutIntern,
@@ -148,11 +150,26 @@ const IndexPage = () => {
                 </div>
               </div>
             </section>
-            <section>
-              <div className="flex items-center justify-between">
+            <section className="mb-36">
+              <div className="mb-14 flex items-center justify-center lg:justify-between">
                 <h2 className="text-center text-heading-04 font-bold text-primary-neutral-white lg:text-heading-03">
                   Live Auctions
                 </h2>
+                <div className="hidden lg:block">
+                  <Button
+                    className="mt-auto w-full"
+                    classButton="primary-outline"
+                  >
+                    Get Started
+                  </Button>
+                </div>
+              </div>
+              <CardList>
+                <Card />
+                <Card />
+                <Card />
+              </CardList>
+              <div className="mt-14 lg:hidden">
                 <Button
                   className="mt-auto w-full"
                   classButton="primary-outline"
@@ -160,6 +177,56 @@ const IndexPage = () => {
                   Get Started
                 </Button>
               </div>
+            </section>
+            <section className="mb-36">
+              <div className="mb-14 flex items-center justify-center lg:justify-between">
+                <h2 className="text-center text-heading-04 font-bold text-primary-neutral-white lg:text-heading-03">
+                  Featured Artist
+                </h2>
+                <div className="hidden lg:block">
+                  <Button
+                    className="mt-auto w-full"
+                    classButton="primary-outline"
+                  >
+                    Get Started
+                  </Button>
+                </div>
+              </div>
+              <div className="grid grid-cols-[repeat(auto-fit,minmax(9rem,1fr))] gap-x-10 gap-y-14">
+                <CardArtist />
+                <CardArtist />
+                <CardArtist />
+                <CardArtist />
+                <CardArtist />
+                <CardArtist />
+              </div>
+              <div className="mt-14 lg:hidden">
+                <Button
+                  className="mt-auto w-full"
+                  classButton="primary-outline"
+                >
+                  Get Started
+                </Button>
+              </div>
+            </section>
+            <section className="mb-36">
+              <h2 className="text-center text-heading-04 font-bold text-primary-neutral-white lg:text-heading-03">
+                Hot NFTs
+              </h2>
+            </section>
+            <section className="mb-40 rounded-[1rem] bg-primary-blue-300 p-8 lg:p-12">
+              <h2 className="text-center text-heading-04 font-bold text-primary-neutral-white lg:text-heading-03">
+                Create Your Own NFT!
+              </h2>
+              <p className="mb-10 mt-6 text-center text-paragraph-01 text-primary-neutral-white">
+                We have a large scale group to support each other in this game,
+                Join us to get the news as soon
+                <br className="hidden lg:block" /> as possible and follow our
+                latest announcements!
+              </p>
+              <Button className="mx-auto" classButton="white">
+                Join Comunity Now
+              </Button>
             </section>
           </LayoutIntern>
         </GridWrapper>

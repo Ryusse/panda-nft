@@ -2,7 +2,11 @@ import React, { ReactNode } from 'react';
 
 import Icon from '../icon';
 
-export type ButtonName = 'primary' | 'primary-outline' | 'secondary-underline';
+export type ButtonName =
+  | 'primary'
+  | 'primary-outline'
+  | 'white'
+  | 'secondary-underline';
 interface Props {
   type?: 'button' | 'submit' | 'reset';
   classButton?: ButtonName;

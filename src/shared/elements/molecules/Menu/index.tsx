@@ -14,7 +14,7 @@ export const Menu = ({ onOpen, onClose }: Props) => {
   return (
     <div className={`z-50 block lg:hidden`}>
       <div
-        className={`fixed top-0 right-0 z-50 flex h-screen w-9/12 w-full flex-col justify-between border-l border-l-primary-grey-800 bg-primary-blue-100 p-4 backdrop-blur duration-200 ease-linear ${
+        className={`fixed top-0 right-0 z-50 flex h-screen w-9/12 w-full flex-col justify-between border-l border-l-primary-grey-800 bg-primary-blue-100 px-4 py-8 backdrop-blur duration-200 ease-linear ${
           onOpen ? 'right-0' : '-right-full'
         }`}
       >

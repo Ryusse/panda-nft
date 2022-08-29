@@ -1,10 +1,15 @@
 import React from 'react';
 
+import { ethereum } from './icons/ethereum';
 import { iconCard } from './icons/iconCard';
 import { menuIcon } from './icons/menuIcon';
 import { Send } from './icons/send';
 
 const iconTypes = {
+  ic_ethereum: {
+    component: ethereum,
+    alt: 'Ethereum',
+  },
   ic_iconCard: {
     component: iconCard,
     alt: 'Icon card',

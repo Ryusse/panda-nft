@@ -30,7 +30,7 @@ export const Header = () => {
   return (
     <>
       <header
-        className={`sticky top-0 z-40 border-b-[1px] py-6 px-4 transition-all duration-200 lg:px-0 lg:py-12  ${
+        className={`sticky top-0 z-40 border-b-[1px] py-6 px-4 transition-all duration-200 lg:px-0 lg:py-8  ${
           isScroll
             ? 'border-b-primary-grey-800 bg-primary-blue-100/80 backdrop-blur'
             : 'border-b-transparent  bg-transparent'
