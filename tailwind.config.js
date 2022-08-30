@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
+      boxShadow: {
+        '01': '10px 10px 42px rgba(30, 80, 255, 0.5)',
+      },
       fontSize: {
         'heading-01': [
           '72px',

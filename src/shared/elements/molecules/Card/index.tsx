@@ -10,11 +10,9 @@ export const Card = () => {
       <StaticImage
         className="rounded-[24px]"
         placeholder="blurred"
-        src="../images/jpg/heroimage2.jpg"
+        src="../../../../images/jpg/heroimage2.jpg"
         alt="image"
         layout="fullWidth"
-        width={498}
-        height={352}
       />
       <div>
         <div className="mt-6 flex justify-between">
