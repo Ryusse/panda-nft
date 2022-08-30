@@ -36,6 +36,7 @@ export const Menu = ({ onOpen, onClose }: Props) => {
               <Link
                 to="/"
                 className="font-semibold"
+                onClick={onClose}
                 activeClassName="text-primary-neutral-white"
               >
                 Home
@@ -45,6 +46,7 @@ export const Menu = ({ onOpen, onClose }: Props) => {
               <Link
                 to="/discover"
                 className="font-semibold"
+                onClick={onClose}
                 activeClassName="text-primary-neutral-white"
               >
                 Discover
@@ -54,6 +56,7 @@ export const Menu = ({ onOpen, onClose }: Props) => {
               <Link
                 to="/contact"
                 className="font-semibold"
+                onClick={onClose}
                 activeClassName="text-primary-neutral-white"
               >
                 Contact us

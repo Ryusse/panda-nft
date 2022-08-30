@@ -1,23 +1,23 @@
 .button-primary {
   @apply border-primary-blue-300 bg-primary-blue-300 text-primary-neutral-white duration-200 #{!important};
 
-  &:hover{
-    @apply bg-primary-blue-250 border-primary-blue-250 #{!important};
+  &:hover {
+    @apply border-primary-blue-250 bg-primary-blue-250 #{!important};
   }
 }
 
 .button-primary-outline {
   @apply border-primary-blue-300 bg-transparent text-primary-neutral-white duration-200;
 
-  &:hover{
+  &:hover {
     @apply bg-others-blueTransparency-50;
   }
 }
 
-.button-white{
-  @apply bg-primary-neutral-white text-primary-blue-300 border-primary-neutral-white #{!important};
+.button-white {
+  @apply border-primary-neutral-white bg-primary-neutral-white text-primary-blue-300 #{!important};
 }
 
-.button-secondary-underline{
-  @apply bg-transparent text-primary-neutral-white underline duration-200 p-0 border-none #{!important};
+.button-secondary-underline {
+  @apply border-none bg-transparent p-0 text-primary-neutral-white underline duration-200 #{!important};
 }

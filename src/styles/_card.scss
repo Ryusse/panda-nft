@@ -1,0 +1,15 @@
+.card {
+  @apply absolute duration-200 top-0 left-0 right-0 bottom-0 rounded-[1rem] cursor-pointer;
+
+  opacity: 0;
+
+  &:hover {
+    opacity: 1;
+    background: radial-gradient(
+      151.95% 463.58% at -44.29% -62.34%,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    backdrop-filter: blur(21px);
+  }
+}

@@ -46,6 +46,18 @@ module.exports = {
             lineHeight: '34px',
           },
         ],
+        'sub-heading-03': [
+          '20px',
+          {
+            lineHeight: '32px',
+          },
+        ],
+        'sub-heading-04': [
+          '18px',
+          {
+            lineHeight: '32px',
+          },
+        ],
         'paragraph-01': [
           '16px',
           {
